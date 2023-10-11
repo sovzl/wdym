@@ -1,0 +1,32 @@
+#### Exercise Solution (`style.css`)
+
+/* Using > - the Child Combinator */
+.content-wrapper > p {
+    background-color: #ffcccb;
+}
+
+.sidebar-item:first-child {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+/* Using + - the Adjacent Sibling Combinator */
+.nested-div + p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inner-div + p {
+    font-style: italic;
+}
+
+/* Using ~ - the General Sibling Combinator */
+.nested-div ~ p {
+    color: green;
+}
+
+.inner-div ~ p {
+    background-color: #f2f2f2;
+}
+
+
